@@ -337,4 +337,4 @@ console.log()
   )
 }
 
-useGLTF.preload('/models/Gladiator.glb')
+useGLTF.preload('/Gladiator.glb')
