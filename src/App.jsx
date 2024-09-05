@@ -18,11 +18,11 @@ export default function App() {
           <Suspense fallback={null}>
           <Gladiator scale={.24} position={[0, 0, 0]} />
           </Suspense>
-          <hemisphereLight intensity={0.5} />
+          <hemisphereLight intensity={2.5} />
           <ContactShadows position={[0, 0, 0.0]} opacity={0.75} scale={10} blur={2.5} far={0.8} />
           <ContactShadows resolution={1024} frames={1} position={[0, 0, 0]} scale={15} blur={0.5} opacity={0.5} far={20} />
           
-          <ambientLight intensity={0.7} />
+          <ambientLight intensity={1.2} />
           <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[10, 15, 10]} castShadow />
 
           {/* <Environment preset="city" /> */}
